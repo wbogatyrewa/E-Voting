@@ -1,0 +1,146 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_startTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_endTime",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "_proposalsAddr",
+						"type": "address[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_proposalsNames",
+						"type": "string[]"
+					}
+				],
+				"name": "addProposals",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "_voters",
+						"type": "address[]"
+					}
+				],
+				"name": "addVoters",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "proposal",
+						"type": "address"
+					}
+				],
+				"name": "totalVotesFor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "proposal",
+						"type": "address"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Voting.sol": "Voting"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC20Standard.sol": {
+			"keccak256": "0xfda262f4abade93a16f74ff9eb6102235fab27ebbd3821d084d05d992467cbae",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3a1eb86132cdc0fbe0187749386a01ece4a2383904af5eceb8d01a74ce16412e",
+				"dweb:/ipfs/QmRP1VW2BAX3cECtFENJEHU5zRnobFWsgKT9G9jy6oEqiN"
+			]
+		},
+		"contracts/Token.sol": {
+			"keccak256": "0xa177f76262f26c2403d1c48f040ba4600c9e52a8557963003565a08c77a16383",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://99f9c793bf95ec3534d031bd0de1a59805dff3b8dacc3e5d962dd5e27e5e735a",
+				"dweb:/ipfs/Qmf5sBoTCwgP2zP9i8R5xbX4VQDnG9o8SMt8enJBp23iSv"
+			]
+		},
+		"contracts/Voting.sol": {
+			"keccak256": "0x5fedae13163b9ac978cf45b104dcac34c1cf2aa50d988466ef54e4c841446297",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a61067f6a2c57e50df87391509ee4e209a65cbafb7a12c320da2487e53367ebe",
+				"dweb:/ipfs/QmXCT8AXiL37xKvYtXsCQPRr7vQnVuxjDGGHfM3knz1tXY"
+			]
+		}
+	},
+	"version": 1
+}
