@@ -134,11 +134,11 @@
 			]
 		},
 		"contracts/Voting.sol": {
-			"keccak256": "0x5fedae13163b9ac978cf45b104dcac34c1cf2aa50d988466ef54e4c841446297",
+			"keccak256": "0x9cd2b6dbe42fe5525a4a90b5c9ce133fcd290e4e5c44656cde8aafe361b8a05a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a61067f6a2c57e50df87391509ee4e209a65cbafb7a12c320da2487e53367ebe",
-				"dweb:/ipfs/QmXCT8AXiL37xKvYtXsCQPRr7vQnVuxjDGGHfM3knz1tXY"
+				"bzz-raw://187e5d5cbfe0104de0987d2902523f04ac43c38249eca9b9239a1b5547a5d4d6",
+				"dweb:/ipfs/QmUqqQAPTXaBD1ZgaX9whLvvepqacLuE9HCRMj5w27aBZz"
 			]
 		}
 	},
